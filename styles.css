@@ -1,0 +1,18 @@
+
+td {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    &: before {
+        font-size:1.5em;
+        line-height:1;
+    }
+    &.cross:before {
+        content: 'x';
+        color: lightblue;
+    }
+    &.circle:before {
+        content: 'o';
+        color: pink;
+    }
+}
