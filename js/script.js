@@ -15,7 +15,7 @@ if(td.html() ==='o'|| td.html() ==='x') {
 count++}
     else{td.append('o')
 count++}
-    
+  
 })
   }
 });
